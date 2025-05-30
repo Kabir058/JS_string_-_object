@@ -7,10 +7,12 @@ let college ={
         badge: "Eagle",
         campus:
         {
-            area: ['chittagong','Dhaka','Jassore']
+            area:['chittagong','Dhaka','Jassore']
         }
     }
 
     
 }
+delete college.unique.badge;
 console.log(college.class[0]+college.unique.campus.area[0])
+console.log(college)
